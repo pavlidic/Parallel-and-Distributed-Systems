@@ -9,3 +9,10 @@
 - μετατροπή από coo σε csc μορφή
 - χρονομέτρηση και
 - πολλαπλασιασμό πινάκων 
+
+---
+
+Οι υλοποιήσεις με cilk γίνονται compile με clang καθώς με gcc γίνονται πολύ πιο αργές.  
+
+Παράδειγμα:
+`{clang bin} -o {output name} -O3 {.c file} mmio.c coo2csc.c -fcilkplus`
