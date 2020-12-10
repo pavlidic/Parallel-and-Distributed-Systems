@@ -18,4 +18,4 @@
 
 `{clang bin} -o {output name} -O3 {.c file} mmio.c coo2csc.c -fcilkplus`
 
-(Δεν δίνεται στο Makefile καθώς δεν το έχουν όλοι εγκατεστημένο και ίσως να υπάρχει σε διαφορετικό path για τον καθένα) 
+(Σε περίπτωση που γίνεται compile σε περιβάλλον διαφορετικό του pds τα cilk files θα πρέπει να γίνουν compile χειροκίνητα ή να αλλάξει η παράμετρος CILKCC στο Makefile)
